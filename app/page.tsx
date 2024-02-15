@@ -17,12 +17,12 @@ export default function Page() {
                     <p className={`${lusitana.className} text-xl text-white md:text-3xl md:leading-normal`}>
                         <strong>Welcome, lets look at some Figma designs in this Admin Dashboard</strong> 
                     </p>
-                    {/* <Link
-                        href="/login"
+                    <Link
+                        href="/dashboard"
                         className="flex items-center gap-5 self-start rounded-lg bg-green-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-green-400 md:text-base"
                     >
                         <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
-                    </Link> */}
+                    </Link>
                 </div>
                 <div className="flex items-center p-6 md:w-3/5 md:px-28 md:py-12">
                     {/* Add Hero Images Here */}
